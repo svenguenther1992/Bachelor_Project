@@ -1,4 +1,4 @@
-The Example1.ipynb file is a python notebook file. Unfortunately, GitHub does not show the code of these files. Therefore, it is best to download the file.
-Ideally, this should then be run in google collaboratory.
+The Example1.ipynb file is a python notebook file. Sometimes GitHub struggles a bit with running these files.
+Ideally, you may take the code and run it in Google Collaboratory.
 To replicate the findings (if you are a supervisor), I can send you the dataset, which should be stored in your google drive.
 With this setup you should be able to arrive at the same results.

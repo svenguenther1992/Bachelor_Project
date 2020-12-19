@@ -181,7 +181,9 @@ def simulate_anova(data, distribution, repetition, repetition_cv, folds_cv,
 
     #initiate a win count (counts win for every cv-repetition)
     wins = 0
-
+    
+    #Repeatedly run cross-validation (note: shuffle=True and random_state=n 
+    #ensure that for each repetition the data is split differently)
     for n in range(repetition_cv):
       cv = KFold(n_splits=folds_cv, shuffle=True, random_state=n)
       score1 = np.sqrt(cross_val_score(models[0][1], X, df["y"], scoring='neg_mean_squared_error', cv=cv, n_jobs=-1).mean()*-1)

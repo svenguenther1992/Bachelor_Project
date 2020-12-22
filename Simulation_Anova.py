@@ -6,7 +6,7 @@ from sklearn.model_selection import KFold
 from sklearn.linear_model import LinearRegression
 from statistics import mean
 
-#One-Way ANOVA Simulation Code
+#One-Way ANOVA Simulation Code 
 
 #The function expects a list of tuples as input, for which each touple refers
 #to a category of the independent variable. The first entry in each tuple
